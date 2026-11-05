@@ -1,0 +1,2 @@
+# Opcional: usado somente no QA de navegador, nunca na execução da automação.
+playwright==1.62.0

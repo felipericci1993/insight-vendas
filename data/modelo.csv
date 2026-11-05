@@ -1,0 +1,2 @@
+﻿pedido_id;data;cliente;produto;categoria;regiao;quantidade;preco_unitario;desconto_pct;status
+DEMO-001;2026-10-01;Cliente fictício;Produto de exemplo;Categoria demo;Sudeste;2;100,00;10;concluido

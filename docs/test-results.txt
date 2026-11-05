@@ -1,0 +1,38 @@
+test_bad_destination_does_not_partially_overwrite (test_core.CoreTests.test_bad_destination_does_not_partially_overwrite) ... Erro: Destino não é um arquivo regular: /tmp/tmpdftf4x17/output/erros.csv
+ok
+test_brazilian_date (test_core.CoreTests.test_brazilian_date) ... ok
+test_cli_outputs_and_reject_log (test_core.CoreTests.test_cli_outputs_and_reject_log) ... ok
+test_csv_formula_guard (test_core.CoreTests.test_csv_formula_guard) ... ok
+test_decimal_calculation_and_rounding (test_core.CoreTests.test_decimal_calculation_and_rounding) ... ok
+test_duplicate_rejected_and_invalid_first_does_not_reserve_id (test_core.CoreTests.test_duplicate_rejected_and_invalid_first_does_not_reserve_id) ... ok
+test_empty_and_only_invalid (test_core.CoreTests.test_empty_and_only_invalid) ... ok
+test_full_discount (test_core.CoreTests.test_full_discount) ... ok
+test_half_cent_rounds_up_per_order (test_core.CoreTests.test_half_cent_rounds_up_per_order) ... ok
+test_html_json_cannot_escape_script (test_core.CoreTests.test_html_json_cannot_escape_script) ... ok
+test_invalid_dates (test_core.CoreTests.test_invalid_dates) ... ok
+test_invalid_encoding (test_core.CoreTests.test_invalid_encoding) ... ok
+test_invalid_money (test_core.CoreTests.test_invalid_money) ... ok
+test_limits (test_core.CoreTests.test_limits) ... ok
+test_malformed_quoted_csv_is_fatal (test_core.CoreTests.test_malformed_quoted_csv_is_fatal) ... ok
+test_missing_extra_and_duplicate_headers (test_core.CoreTests.test_missing_extra_and_duplicate_headers) ... ok
+test_missing_input_is_friendly_error (test_core.CoreTests.test_missing_input_is_friendly_error) ... Erro: [Errno 2] No such file or directory: '/tmp/tmp0nb2mb8u/missing.csv'
+ok
+test_quantity_and_discount_bounds (test_core.CoreTests.test_quantity_and_discount_bounds) ... ok
+test_required_and_control_characters (test_core.CoreTests.test_required_and_control_characters) ... ok
+test_sorting_and_reordered_headers (test_core.CoreTests.test_sorting_and_reordered_headers) ... ok
+test_source_cannot_be_overwritten (test_core.CoreTests.test_source_cannot_be_overwritten) ... Erro: A pasta de saída substituiria o arquivo de entrada. Escolha outra pasta.
+ok
+test_status_whitelist (test_core.CoreTests.test_status_whitelist) ... ok
+test_strict_mode_does_not_write (test_core.CoreTests.test_strict_mode_does_not_write) ... Erro: Modo estrito: 1 registro(s) inválido(s). Primeiro problema na linha 3: data: use uma data válida entre 2000 e 2099 em AAAA-MM-DD ou DD/MM/AAAA
+ok
+test_summary_uses_completed_only (test_core.CoreTests.test_summary_uses_completed_only) ... ok
+test_utf8_bom_and_decimal_dot (test_core.CoreTests.test_utf8_bom_and_decimal_dot) ... ok
+test_wrong_column_count (test_core.CoreTests.test_wrong_column_count) ... ok
+test_zero_completed_summary (test_core.CoreTests.test_zero_completed_summary) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.014s
+
+OK
+Pronto: 1 registro(s) válido(s), 1 rejeitado(s).
+Abra /tmp/tmp8jjhkgsl/output/index.html no navegador. Todos os dados permanecem locais.

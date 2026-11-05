@@ -1,0 +1,124 @@
+﻿pedido_id;data;cliente;produto;categoria;regiao;quantidade;preco_unitario;desconto_pct;status
+PV-1001;2026-09-08;Cliente demo 001;Organizador Modular;Casa;Sudeste;4;89,90;5;concluido
+PV-1002;2026-09-15;Cliente demo 002;Carregador Duo;Tecnologia;Sul;1;129,90;0;concluido
+PV-1003;2026-09-22;Cliente demo 003;Organizador Modular;Casa;Centro-Oeste;1;89,90;0;concluido
+PV-1004;2026-09-29;Cliente demo 004;Organizador Modular;Casa;Sul;1;89,90;0;concluido
+PV-1005;2026-09-06;Cliente demo 005;Carregador Duo;Tecnologia;Centro-Oeste;1;129,90;10;concluido
+PV-1006;2026-09-13;Cliente demo 006;Caderno Pauta Livre;Papelaria;Sudeste;1;39,90;10;concluido
+PV-1007;2026-09-20;Cliente demo 007;Kit Escrita Essencial;Papelaria;Nordeste;1;54,90;0;pendente
+PV-1008;2026-09-27;Cliente demo 008;Kit Escrita Essencial;Papelaria;Sudeste;1;54,90;10;concluido
+PV-1009;2026-09-04;Cliente demo 009;Organizador Modular;Casa;Nordeste;2;89,90;5;concluido
+PV-1010;2026-09-11;Cliente demo 010;Luminária Horizonte;Casa;Centro-Oeste;3;149,90;0;concluido
+PV-1011;2026-09-18;Cliente demo 011;Garrafa Fluxo;Lifestyle;Sudeste;3;79,90;5;concluido
+PV-1012;2026-09-25;Cliente demo 012;Kit Escrita Essencial;Papelaria;Sul;4;54,90;0;concluido
+PV-1013;2026-09-02;Cliente demo 013;Luminária Horizonte;Casa;Sul;2;149,90;0;cancelado
+PV-1014;2026-09-09;Cliente demo 014;Carregador Duo;Tecnologia;Sudeste;2;129,90;5;pendente
+PV-1015;2026-09-16;Cliente demo 015;Bolsa Urbana;Lifestyle;Nordeste;1;189,90;5;concluido
+PV-1016;2026-09-23;Cliente demo 016;Kit Escrita Essencial;Papelaria;Sul;4;54,90;5;concluido
+PV-1017;2026-09-30;Cliente demo 017;Organizador Modular;Casa;Sul;3;89,90;0;concluido
+PV-1018;2026-09-07;Cliente demo 018;Fone Compact;Tecnologia;Centro-Oeste;2;219,90;5;concluido
+PV-1019;2026-09-14;Cliente demo 019;Carregador Duo;Tecnologia;Nordeste;1;129,90;0;concluido
+PV-1020;2026-09-21;Cliente demo 020;Luminária Horizonte;Casa;Nordeste;2;149,90;5;concluido
+PV-1021;2026-09-28;Cliente demo 021;Organizador Modular;Casa;Sul;3;89,90;5;pendente
+PV-1022;2026-09-05;Cliente demo 022;Carregador Duo;Tecnologia;Centro-Oeste;2;129,90;10;concluido
+PV-1023;2026-09-12;Cliente demo 023;Fone Compact;Tecnologia;Nordeste;1;219,90;0;concluido
+PV-1024;2026-09-19;Cliente demo 024;Caderno Pauta Livre;Papelaria;Centro-Oeste;3;39,90;10;concluido
+PV-1025;2026-09-26;Cliente demo 025;Kit Escrita Essencial;Papelaria;Sul;1;54,90;10;concluido
+PV-1026;2026-09-03;Cliente demo 026;Organizador Modular;Casa;Sudeste;1;89,90;0;cancelado
+PV-1027;2026-09-10;Cliente demo 027;Fone Compact;Tecnologia;Centro-Oeste;3;219,90;0;concluido
+PV-1028;2026-09-17;Cliente demo 028;Garrafa Fluxo;Lifestyle;Centro-Oeste;3;79,90;10;pendente
+PV-1029;2026-09-24;Cliente demo 029;Caderno Pauta Livre;Papelaria;Sudeste;4;39,90;0;concluido
+PV-1030;2026-09-01;Cliente demo 030;Caderno Pauta Livre;Papelaria;Nordeste;1;39,90;5;concluido
+PV-1031;2026-09-08;Cliente demo 031;Garrafa Fluxo;Lifestyle;Sul;2;79,90;0;concluido
+PV-1032;2026-09-15;Cliente demo 032;Caderno Pauta Livre;Papelaria;Sul;3;39,90;0;concluido
+PV-1033;2026-09-22;Cliente demo 033;Caderno Pauta Livre;Papelaria;Sul;1;39,90;5;concluido
+PV-1034;2026-09-29;Cliente demo 034;Fone Compact;Tecnologia;Sudeste;3;219,90;5;concluido
+PV-1035;2026-09-06;Cliente demo 035;Bolsa Urbana;Lifestyle;Sudeste;1;189,90;5;pendente
+PV-1036;2026-09-13;Cliente demo 036;Caderno Pauta Livre;Papelaria;Sul;1;39,90;0;concluido
+PV-1037;2026-09-20;Cliente demo 037;Organizador Modular;Casa;Sudeste;4;89,90;10;concluido
+PV-1038;2026-09-27;Cliente demo 038;Organizador Modular;Casa;Sul;1;89,90;10;concluido
+PV-1039;2026-09-04;Cliente demo 039;Fone Compact;Tecnologia;Nordeste;3;219,90;10;cancelado
+PV-1040;2026-09-11;Cliente demo 040;Carregador Duo;Tecnologia;Sul;4;129,90;5;concluido
+PV-1041;2026-09-18;Cliente demo 041;Garrafa Fluxo;Lifestyle;Nordeste;2;79,90;10;concluido
+PV-1042;2026-09-25;Cliente demo 042;Organizador Modular;Casa;Sul;1;89,90;0;pendente
+PV-1043;2026-09-02;Cliente demo 043;Kit Escrita Essencial;Papelaria;Sudeste;3;54,90;0;concluido
+PV-1044;2026-09-09;Cliente demo 044;Carregador Duo;Tecnologia;Sudeste;1;129,90;0;concluido
+PV-1045;2026-09-16;Cliente demo 045;Carregador Duo;Tecnologia;Sudeste;1;129,90;5;concluido
+PV-1046;2026-09-23;Cliente demo 046;Organizador Modular;Casa;Sul;2;89,90;10;concluido
+PV-1047;2026-09-30;Cliente demo 047;Carregador Duo;Tecnologia;Sul;4;129,90;10;concluido
+PV-1048;2026-09-07;Cliente demo 048;Carregador Duo;Tecnologia;Centro-Oeste;2;129,90;0;concluido
+PV-1049;2026-10-14;Cliente demo 049;Organizador Modular;Casa;Sudeste;4;89,90;10;pendente
+PV-1050;2026-10-21;Cliente demo 050;Kit Escrita Essencial;Papelaria;Centro-Oeste;2;54,90;10;concluido
+PV-1051;2026-10-28;Cliente demo 051;Luminária Horizonte;Casa;Sudeste;1;149,90;10;concluido
+PV-1052;2026-10-05;Cliente demo 052;Kit Escrita Essencial;Papelaria;Sudeste;1;54,90;0;cancelado
+PV-1053;2026-10-12;Cliente demo 053;Carregador Duo;Tecnologia;Centro-Oeste;1;129,90;10;concluido
+PV-1054;2026-10-19;Cliente demo 054;Fone Compact;Tecnologia;Nordeste;2;219,90;0;concluido
+PV-1055;2026-10-26;Cliente demo 055;Organizador Modular;Casa;Centro-Oeste;3;89,90;0;concluido
+PV-1056;2026-10-03;Cliente demo 056;Luminária Horizonte;Casa;Sudeste;1;149,90;0;pendente
+PV-1057;2026-10-10;Cliente demo 057;Fone Compact;Tecnologia;Centro-Oeste;2;219,90;10;concluido
+PV-1058;2026-10-17;Cliente demo 058;Carregador Duo;Tecnologia;Centro-Oeste;1;129,90;0;concluido
+PV-1059;2026-10-24;Cliente demo 059;Garrafa Fluxo;Lifestyle;Sudeste;2;79,90;5;concluido
+PV-1060;2026-10-01;Cliente demo 060;Bolsa Urbana;Lifestyle;Nordeste;2;189,90;10;concluido
+PV-1061;2026-10-08;Cliente demo 061;Fone Compact;Tecnologia;Sul;2;219,90;0;concluido
+PV-1062;2026-10-15;Cliente demo 062;Luminária Horizonte;Casa;Sudeste;4;149,90;5;concluido
+PV-1063;2026-10-22;Cliente demo 063;Luminária Horizonte;Casa;Sudeste;3;149,90;10;pendente
+PV-1064;2026-10-29;Cliente demo 064;Fone Compact;Tecnologia;Sudeste;3;219,90;0;concluido
+PV-1065;2026-10-06;Cliente demo 065;Fone Compact;Tecnologia;Sudeste;3;219,90;0;cancelado
+PV-1066;2026-10-13;Cliente demo 066;Carregador Duo;Tecnologia;Centro-Oeste;1;129,90;0;concluido
+PV-1067;2026-10-20;Cliente demo 067;Luminária Horizonte;Casa;Sudeste;2;149,90;5;concluido
+PV-1068;2026-10-27;Cliente demo 068;Caderno Pauta Livre;Papelaria;Sul;4;39,90;5;concluido
+PV-1069;2026-10-04;Cliente demo 069;Carregador Duo;Tecnologia;Nordeste;2;129,90;0;concluido
+PV-1070;2026-10-11;Cliente demo 070;Caderno Pauta Livre;Papelaria;Centro-Oeste;2;39,90;0;pendente
+PV-1071;2026-10-18;Cliente demo 071;Luminária Horizonte;Casa;Centro-Oeste;3;149,90;0;concluido
+PV-1072;2026-10-25;Cliente demo 072;Organizador Modular;Casa;Sul;3;89,90;5;concluido
+PV-1073;2026-10-02;Cliente demo 073;Fone Compact;Tecnologia;Nordeste;1;219,90;0;concluido
+PV-1074;2026-10-09;Cliente demo 074;Kit Escrita Essencial;Papelaria;Nordeste;1;54,90;10;concluido
+PV-1075;2026-10-16;Cliente demo 075;Caderno Pauta Livre;Papelaria;Sudeste;4;39,90;5;concluido
+PV-1076;2026-10-23;Cliente demo 076;Organizador Modular;Casa;Sul;2;89,90;0;concluido
+PV-1077;2026-10-30;Cliente demo 077;Organizador Modular;Casa;Sul;2;89,90;5;pendente
+PV-1078;2026-10-07;Cliente demo 078;Carregador Duo;Tecnologia;Nordeste;1;129,90;5;cancelado
+PV-1079;2026-10-14;Cliente demo 079;Bolsa Urbana;Lifestyle;Nordeste;1;189,90;0;concluido
+PV-1080;2026-10-21;Cliente demo 080;Garrafa Fluxo;Lifestyle;Nordeste;1;79,90;0;concluido
+PV-1081;2026-10-28;Cliente demo 081;Kit Escrita Essencial;Papelaria;Sul;4;54,90;5;concluido
+PV-1082;2026-10-05;Cliente demo 082;Fone Compact;Tecnologia;Centro-Oeste;3;219,90;10;concluido
+PV-1083;2026-10-12;Cliente demo 083;Luminária Horizonte;Casa;Sudeste;1;149,90;0;concluido
+PV-1084;2026-10-19;Cliente demo 084;Luminária Horizonte;Casa;Nordeste;3;149,90;0;pendente
+PV-1085;2026-10-26;Cliente demo 085;Garrafa Fluxo;Lifestyle;Sul;1;79,90;5;concluido
+PV-1086;2026-10-03;Cliente demo 086;Kit Escrita Essencial;Papelaria;Sudeste;2;54,90;0;concluido
+PV-1087;2026-10-10;Cliente demo 087;Carregador Duo;Tecnologia;Sudeste;2;129,90;10;concluido
+PV-1088;2026-10-17;Cliente demo 088;Fone Compact;Tecnologia;Sul;1;219,90;0;concluido
+PV-1089;2026-10-24;Cliente demo 089;Garrafa Fluxo;Lifestyle;Sudeste;1;79,90;5;concluido
+PV-1090;2026-10-01;Cliente demo 090;Garrafa Fluxo;Lifestyle;Sul;2;79,90;0;concluido
+PV-1091;2026-10-08;Cliente demo 091;Organizador Modular;Casa;Centro-Oeste;1;89,90;10;cancelado
+PV-1092;2026-10-15;Cliente demo 092;Carregador Duo;Tecnologia;Sul;2;129,90;5;concluido
+PV-1093;2026-10-22;Cliente demo 093;Caderno Pauta Livre;Papelaria;Sul;1;39,90;0;concluido
+PV-1094;2026-10-29;Cliente demo 094;Carregador Duo;Tecnologia;Centro-Oeste;2;129,90;5;concluido
+PV-1095;2026-10-06;Cliente demo 095;Organizador Modular;Casa;Nordeste;2;89,90;10;concluido
+PV-1096;2026-10-13;Cliente demo 096;Kit Escrita Essencial;Papelaria;Sudeste;1;54,90;5;concluido
+PV-1097;2026-10-20;Cliente demo 097;Fone Compact;Tecnologia;Nordeste;1;219,90;0;concluido
+PV-1098;2026-10-27;Cliente demo 098;Garrafa Fluxo;Lifestyle;Nordeste;4;79,90;5;pendente
+PV-1099;2026-10-04;Cliente demo 099;Garrafa Fluxo;Lifestyle;Sudeste;2;79,90;0;concluido
+PV-1100;2026-10-11;Cliente demo 100;Caderno Pauta Livre;Papelaria;Sudeste;4;39,90;10;concluido
+PV-1101;2026-10-18;Cliente demo 101;Luminária Horizonte;Casa;Sul;2;149,90;10;concluido
+PV-1102;2026-10-25;Cliente demo 102;Organizador Modular;Casa;Nordeste;3;89,90;5;concluido
+PV-1103;2026-10-02;Cliente demo 103;Organizador Modular;Casa;Nordeste;3;89,90;5;concluido
+PV-1104;2026-10-09;Cliente demo 104;Garrafa Fluxo;Lifestyle;Nordeste;2;79,90;5;cancelado
+PV-1105;2026-10-16;Cliente demo 105;Fone Compact;Tecnologia;Sul;2;219,90;10;pendente
+PV-1106;2026-10-23;Cliente demo 106;Fone Compact;Tecnologia;Nordeste;2;219,90;0;concluido
+PV-1107;2026-10-30;Cliente demo 107;Caderno Pauta Livre;Papelaria;Nordeste;1;39,90;10;concluido
+PV-1108;2026-10-07;Cliente demo 108;Kit Escrita Essencial;Papelaria;Centro-Oeste;2;54,90;10;concluido
+PV-1109;2026-10-14;Cliente demo 109;Carregador Duo;Tecnologia;Centro-Oeste;4;129,90;0;concluido
+PV-1110;2026-10-21;Cliente demo 110;Organizador Modular;Casa;Nordeste;3;89,90;5;concluido
+PV-1111;2026-10-28;Cliente demo 111;Organizador Modular;Casa;Sul;4;89,90;5;concluido
+PV-1112;2026-10-05;Cliente demo 112;Carregador Duo;Tecnologia;Sul;1;129,90;0;pendente
+PV-1113;2026-10-12;Cliente demo 113;Luminária Horizonte;Casa;Sul;2;149,90;0;concluido
+PV-1114;2026-10-19;Cliente demo 114;Bolsa Urbana;Lifestyle;Centro-Oeste;4;189,90;0;concluido
+PV-1115;2026-10-26;Cliente demo 115;Garrafa Fluxo;Lifestyle;Centro-Oeste;2;79,90;0;concluido
+PV-1116;2026-10-03;Cliente demo 116;Fone Compact;Tecnologia;Sudeste;1;219,90;10;concluido
+PV-1117;2026-10-10;Cliente demo 117;Carregador Duo;Tecnologia;Sul;4;129,90;10;cancelado
+PV-1118;2026-10-17;Cliente demo 118;Luminária Horizonte;Casa;Sul;1;149,90;10;concluido
+PV-1119;2026-10-24;Cliente demo 119;Fone Compact;Tecnologia;Centro-Oeste;4;219,90;5;pendente
+PV-1120;2026-10-01;Cliente demo 120;Bolsa Urbana;Lifestyle;Centro-Oeste;3;189,90;10;concluido
+PV-ERR1;31/02/2026;Cliente demo inválido;Kit Escrita Essencial;Papelaria;Sul;2;54,90;0;concluido
+PV-1001;2026-09-08;Cliente demo 001;Organizador Modular;Casa;Sudeste;4;89,90;5;concluido
+PV-ERR3;2026-10-19;Cliente demo inválido;Garrafa Fluxo;Lifestyle;Sudeste;-2;79,90;0;concluido

@@ -1,0 +1,4 @@
+﻿linha;pedido_id;motivo
+122;PV-ERR1;data: use uma data válida entre 2000 e 2099 em AAAA-MM-DD ou DD/MM/AAAA
+123;PV-1001;pedido_id duplicado: a primeira ocorrência válida foi mantida
+124;PV-ERR3;quantidade: use um inteiro entre 1 e 1000

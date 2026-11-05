@@ -1,0 +1,34 @@
+{
+  "version": "1.0.1",
+  "change": "Faixa de filtros responsiva com quebra de linha e largura mínima de 200 px; campos em largura total até 480 px.",
+  "python_tests_passed": 27,
+  "script_unchanged": true,
+  "data_files_unchanged": true,
+  "desktop_functional_qa_before_change": "Aprovado pela prévia oficial: filtros combinados, busca, reset, paginação, modais e exportação.",
+  "visual_verification_after_change": "passed_desktop_official_preview",
+  "mobile_qa": "not_verified",
+  "before_screenshot": "screenshots/desktop-before-filter-fix.png",
+  "browser_automation": "blocked_before_launch",
+  "after_screenshot": "screenshots/desktop-v1.0.1.png",
+  "desktop_checks_after_change": {
+    "category_label": "fully_visible",
+    "filter_layout": "two_rows_without_overlap",
+    "combined_category_region": {
+      "orders": 4,
+      "revenue_cents": 109143
+    },
+    "search_PV_1064": {
+      "orders": 1,
+      "revenue_cents": 65970
+    },
+    "september_after_reset": {
+      "orders": 48,
+      "revenue_cents": 821399
+    },
+    "october": {
+      "orders": 72,
+      "revenue_cents": 1378840
+    }
+  },
+  "scope_note": "Revisão manual desktop pela prévia oficial; não comprova execução Playwright, mobile, auditoria de acessibilidade ou compatibilidade entre navegadores."
+}
