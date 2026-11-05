@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+test-results/
+playwright-report/
+
+# Credenciais e configuração local nunca pertencem à demonstração pública.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Saídas com dados próprios: mantenha-as fora do exemplo versionado em dist/.
+/meu-relatorio/
+/relatorio-estrito/
+/relatorios-privados/
