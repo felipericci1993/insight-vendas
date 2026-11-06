@@ -1,14 +1,18 @@
 # Insight Vendas
 
-**Uma planilha entra. Um relatório pronto para explorar sai.**
+**Um CSV de vendas entra. Um relatório pronto para explorar sai.**
 
-Automação em Python que valida um CSV de vendas e transforma os registros em um painel HTML interativo, sem servidor, conta, serviço pago ou dependências de execução.
+Automação em Python que valida um CSV de vendas e transforma os registros em um painel HTML interativo. Para explorar o exemplo, basta um navegador. Para gerar novos relatórios, use Python 3.11 ou superior, sem pacotes adicionais.
 
-> Projeto demonstrativo de portfólio. Casa Prisma, seus produtos, compradores e valores são fictícios. Não representa cliente atendido nem resultado comercial real. Preparado em 05/11/2026. Repositório público de demonstração; o painel é executado localmente e não tem uma versão hospedada nesta entrega.
+> Projeto demonstrativo de portfólio. Casa Prisma, seus produtos, compradores e valores são fictícios. Não representa cliente atendido nem resultado comercial real. O painel funciona localmente, sem uma versão hospedada.
 
 ## Experimente sem instalar
 
-Baixe o projeto como ZIP, extraia a pasta e abra **`dist/index.html`** no seu navegador. No GitHub, o link do arquivo mostra o código-fonte, não executa o painel. O HTML reúne layout, lógica e os 120 pedidos fictícios válidos em um único arquivo. Não precisa de internet.
+1. No topo do repositório, selecione **Code → Download ZIP**.
+2. Extraia a pasta baixada.
+3. Abra **`dist/index.html`** no seu navegador.
+
+O exemplo reúne o painel e os 120 pedidos fictícios válidos em um único arquivo, que funciona sem internet. Abrir o arquivo diretamente no GitHub mostra o código-fonte, não executa o painel.
 
 ![Painel desktop da versão 1.0.1 com dados fictícios de outubro de 2026](docs/screenshots/desktop-v1.0.1.png)
 
@@ -22,13 +26,15 @@ Baixe o projeto como ZIP, extraia a pasta e abra **`dist/index.html`** no seu na
 
 O painel abre no mês mais recente. **Limpar filtros** mostra toda a base. A pasta também inclui os dados tratados, o resumo estruturado e o relatório de rejeições.
 
-**Verificação:** 27 testes Python passaram e a sintaxe JavaScript foi validada. A versão 1.0.1 teve o layout desktop revalidado: o texto da categoria aparece inteiro e os filtros se distribuem em duas linhas, sem sobreposição. Filtros combinados, busca, limpeza e troca de mês também foram rechecados. Paginação, modais e exportação passaram no QA desktop anterior ao ajuste de CSS. **QA mobile ainda pendente.** Os resultados remotos de CI ficam na aba [Actions](https://github.com/felipericci1993/insight-vendas/actions). Consulte [o relatório de testes](docs/TESTES.md).
+**Verificação:** 27 testes Python passaram. O layout desktop da versão 1.0.1 foi revalidado; **QA mobile ainda pendente**. Consulte [o relatório de testes](docs/TESTES.md) para os fluxos verificados e a aba [Actions](https://github.com/felipericci1993/insight-vendas/actions) para o resultado de cada commit.
+
+**Navegue:** [Gerar um relatório](#gerar-um-relatório) · [Formato de entrada](#formato-de-entrada) · [Testes](#testes) · [Privacidade](#privacidade-e-segurança)
 
 ## Qual problema resolve
 
 Exportações de planilhas costumam exigir as mesmas tarefas: verificar campos, evitar pedidos duplicados, conferir valores e produzir um resumo compreensível. Este projeto concentra essas etapas em um comando e deixa as linhas rejeitadas rastreáveis.
 
-É um exemplo de **automação de relatórios, tratamento de CSV e dashboard web**. Diferencia-se de um site institucional: o foco é transformar e validar dados, não divulgar um negócio.
+O projeto demonstra **automação de relatórios, tratamento de CSV e dashboard web**: validar os dados de vendas e gerar um relatório que pode ser aberto no navegador.
 
 ## Gerar um relatório
 
@@ -140,7 +146,7 @@ python -m playwright install chromium
 python tests/browser_smoke.py
 ```
 
-Para usar um Chromium já instalado, informe o caminho em `PLAYWRIGHT_CHROMIUM_EXECUTABLE`. Esse teste gera capturas desktop/mobile e `docs/browser-results.json` **somente quando consegue executar**. A captura [desktop-v1.0.1.png](docs/screenshots/desktop-v1.0.1.png) documenta a revisão visual desktop final pela prévia oficial. A imagem [desktop-before-filter-fix.png](docs/screenshots/desktop-before-filter-fix.png) preserva o estado anterior ao ajuste. O roteiro automatizado de navegador ainda não foi executado até o fim no ambiente de preparação.
+Para usar um Chromium já instalado, informe o caminho em `PLAYWRIGHT_CHROMIUM_EXECUTABLE`. Esse teste gera capturas desktop/mobile e `docs/browser-results.json` **somente quando consegue executar**. A captura [desktop-v1.0.1.png](docs/screenshots/desktop-v1.0.1.png) documenta a revisão visual desktop da versão 1.0.1. A imagem [desktop-before-filter-fix.png](docs/screenshots/desktop-before-filter-fix.png) preserva o estado anterior ao ajuste. O roteiro automatizado de navegador ainda não foi executado até o fim.
 
 A configuração em `.github/workflows/tests.yml` executa os testes Python em 3.11, 3.12 e 3.13 a cada push ou pull request. Consulte o resultado de cada commit na aba [Actions](https://github.com/felipericci1993/insight-vendas/actions). Os resultados locais registrados neste pacote usam Python 3.12.14.
 
@@ -168,11 +174,11 @@ docs/            caso de portfólio, decisões e evidências de teste
 - Os arquivos são preparados numa pasta temporária antes da substituição. A substituição é atômica **por arquivo**, não pelo conjunto inteiro. Uma falha do sistema durante a fase final ainda pode deixar arquivos de gerações diferentes. Gere novamente numa pasta nova nesse caso.
 - Para adaptar com dados reais, revise o escopo, a autorização e a privacidade antes de gerar ou compartilhar.
 
-## Ao reutilizar ou evoluir
+## Documentação
 
-1. Preserve a ressalva de QA mobile pendente. Complete essa validação antes de anunciar suporte mobile homologado.
-2. Confirme que este projeto corresponde ao serviço que pretende oferecer.
-3. Mantenha os avisos de demonstração e não invente clientes ou resultados reais.
-4. Revise a descrição sugerida em [docs/CASO-DE-PORTFOLIO.md](docs/CASO-DE-PORTFOLIO.md).
-5. O repositório foi criado como público, sem arquivo de licença. A ausência de licença não concede uma licença de código aberto. Veja o [roteiro de publicação](docs/PUBLICACAO.md) e a [revisão do pacote](docs/REVISAO-PUBLICACAO.md).
+- [Caso de portfólio](docs/CASO-DE-PORTFOLIO.md): cenário, solução e conhecimentos demonstrados.
+- [Relatório de testes](docs/TESTES.md): evidências, cobertura e verificações pendentes.
+- [Publicação e manutenção](docs/PUBLICACAO.md): cuidados para futuras atualizações.
+- [Revisão do pacote](docs/REVISAO-PUBLICACAO.md): escopo da revisão da versão 1.0.1.
 
+O repositório é público e não inclui arquivo de licença. A ausência de licença não concede uma licença de código aberto.

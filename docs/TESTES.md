@@ -9,7 +9,7 @@ Preparado em 05/11/2026. Todos os dados são fictícios.
 - Modo estrito: `data/modelo.csv` produziu um relatório com um registro válido e nenhuma rejeição.
 - Compilação estática de Python: `python -m compileall -q insight_vendas tests`, sem erro.
 - Sintaxe JavaScript: script extraído de `dist/index.html` e verificado com Node 24.22.1 (`node --check`), sem erro.
-- Revisão independente do código: nenhuma falha reproduzível de cálculo, validação ou injeção encontrada. A observação sobre risco de escrita parcial levou à preparação temporária, substituição por arquivo e documentação da limitação restante.
+- Revisão do código: nenhuma falha reproduzível de cálculo, validação ou injeção encontrada. A observação sobre risco de escrita parcial levou à preparação temporária, substituição por arquivo e documentação da limitação restante.
 
 ## Cobertura Python
 
@@ -29,7 +29,7 @@ Preparado em 05/11/2026. Todos os dados são fictícios.
 14. Arquivos de saída, modo estrito sem escrita e mensagem de entrada inexistente.
 15. Proteção do arquivo original e validação dos destinos antes de escrever.
 
-## QA desktop pela prévia oficial
+## Verificação manual em desktop
 
 O QA desktop anterior à versão 1.0.1 aprovou filtros combinados, busca, limpeza dos filtros, paginação, modais e exportação. A captura está em [screenshots/desktop-before-filter-fix.png](screenshots/desktop-before-filter-fix.png). Essa imagem registra a versão anterior ao ajuste e não comprova o resultado visual da versão nova.
 
@@ -44,13 +44,13 @@ Na mesma revisão desktop foram observados:
 - Limpeza e troca para setembro de 2026: 48 pedidos, R$ 8.213,99.
 - Outubro de 2026: 72 pedidos, R$ 13.788,40.
 
-Esses resultados são verificações funcionais e visuais manuais na prévia oficial; não são uma execução do roteiro Playwright. Exportação, modais e paginação foram aprovados no QA desktop anterior ao ajuste de CSS, não repetidos nesta revisão final.
+Esses resultados são verificações funcionais e visuais manuais; não são uma execução do roteiro Playwright. Exportação, modais e paginação foram aprovados no QA desktop anterior ao ajuste de CSS, não repetidos nesta revisão final.
 
 ## Limitações e verificações pendentes
 
-A inicialização do Chromium headless falhou antes de abrir o painel, com `socket() failed: Operation not permitted`. A tentativa de execução com escalonamento também não iniciou o navegador. Não foi uma falha observada na interface do projeto.
+O roteiro automatizado de navegador não foi executado até o fim porque o Chromium não iniciou no ambiente de teste. Esse bloqueio ocorreu antes da abertura do painel e não comprova uma falha na interface.
 
-O roteiro automatizado de navegador não foi executado até o fim. A captura e o QA funcional desktop descritos acima vieram da prévia oficial. **O ajuste visual desktop da versão 1.0.1 foi revalidado; o QA mobile não foi concluído.** Não afirmar homologação de responsividade mobile, acessibilidade completa ou impressão. Nenhuma nova tentativa de DevTools foi feita após a negativa explícita de acesso.
+As capturas e os resultados desktop descritos acima vieram de verificação manual. **O ajuste visual desktop da versão 1.0.1 foi revalidado; o QA mobile não foi concluído.** Responsividade mobile, acessibilidade completa e impressão permanecem sem homologação.
 
 O teste `tests/browser_smoke.py` está preparado para verificar:
 
