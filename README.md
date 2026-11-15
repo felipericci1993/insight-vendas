@@ -4,9 +4,13 @@
 
 Automação em Python que valida um CSV de vendas e transforma os registros em um painel HTML interativo. Para explorar o exemplo, basta um navegador. Para gerar novos relatórios, use Python 3.11 ou superior, sem pacotes adicionais.
 
-> Projeto demonstrativo de portfólio. Casa Prisma, seus produtos, compradores e valores são fictícios. Não representa cliente atendido nem resultado comercial real. O painel funciona localmente, sem uma versão hospedada.
+> Projeto demonstrativo de portfólio. Casa Prisma, seus produtos, compradores e valores são fictícios. Não representa cliente atendido nem resultado comercial real. O painel funciona localmente e também possui uma demonstração pública com os mesmos dados fictícios.
 
 ## Experimente sem instalar
+
+**[Abrir demonstração online](https://felipericci1993.github.io/insight-vendas/)** · Sem cadastro ou formulário de clientes.
+
+Para usar offline:
 
 1. No topo do repositório, selecione **Code → Download ZIP**.
 2. Extraia a pasta baixada.
@@ -16,7 +20,7 @@ O exemplo reúne o painel e os 120 pedidos fictícios válidos em um único arqu
 
 ![Painel desktop da versão 1.0.1 com dados fictícios de outubro de 2026](docs/screenshots/desktop-v1.0.1.png)
 
-*Captura real do painel desktop da versão 1.0.1. A apresentação mobile ainda não foi verificada.*
+*Captura real do painel desktop da versão 1.0.1. O layout responsivo foi conferido em 15/11/2026 a 388 pixels CSS, com janela estreita e zoom no Chromium; não é teste em aparelho físico ou de toque.*
 
 - Explore período, categoria e região.
 - Busque produto, cliente fictício ou número do pedido.
@@ -26,7 +30,7 @@ O exemplo reúne o painel e os 120 pedidos fictícios válidos em um único arqu
 
 O painel abre no mês mais recente. **Limpar filtros** mostra toda a base. A pasta também inclui os dados tratados, o resumo estruturado e o relatório de rejeições.
 
-**Verificação:** 27 testes Python passaram. O layout desktop da versão 1.0.1 foi revalidado; **QA mobile ainda pendente**. Consulte [o relatório de testes](docs/TESTES.md) para os fluxos verificados e a aba [Actions](https://github.com/felipericci1993/insight-vendas/actions) para o resultado de cada commit.
+**Verificação:** 27 testes Python passaram. O layout desktop da versão 1.0.1 foi revalidado; o layout responsivo a 388 pixels CSS, filtros e download CSV foram verificados no Chromium em 15/11/2026. A demonstração pública HTTPS também passou por busca, filtro de período e exportação CSV após a publicação. Consulte [o relatório de testes](docs/TESTES.md) para os fluxos verificados e a aba [Actions](https://github.com/felipericci1993/insight-vendas/actions) para o resultado de cada commit.
 
 **Navegue:** [Gerar um relatório](#gerar-um-relatório) · [Formato de entrada](#formato-de-entrada) · [Testes](#testes) · [Privacidade](#privacidade-e-segurança)
 
